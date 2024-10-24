@@ -178,6 +178,8 @@ Int main(void) {
     
     // JTKJ: Teht�v� 2. Ota i2c-v�yl� k�ytt��n ohjelmassa
     // JTKJ: Exercise 2. Initialize i2c bus
+
+   Board_initI2C();
     // JTKJ: Teht�v� 4. Ota UART k�ytt��n ohjelmassa
     // JTKJ: Exercise 4. Initialize UART
     Board_initUART();
